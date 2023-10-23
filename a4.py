@@ -9,6 +9,21 @@ class TTTBoard:
         board - a list of '*'s, 'X's & 'O's. 'X's represent moves by player 'X', 'O's
             represent moves by player 'O' and '*'s are spots no one has yet played on
     """
+    # UL = "  "; UM = "  "; UR = "  "
+    # ML = "  "; MM = "  "; MR = "  "
+    # LL = "  "; LM = "  "; LR = "  "
+    # def printBoard():
+
+    #     print("    |    |    ")
+    #     print(" " + UR + " | " + UM + " | " + UR + " ")
+    #     print("____|____|____")
+    #     print("    |    |    ")
+    #     print(" " + MR + " | " + MM + " | " + MR + " ")
+    #     print("____|____|____")
+    #     print(" " + LR + " | " + LM + " | " + LR + " ")
+    #     print("    |    |    ")
+    
+    # printBoard()
 
     pass
 
@@ -89,4 +104,4 @@ if __name__ == "__main__":
     print("All tests passed!")
 
     # uncomment to play!
-    # play_tic_tac_toe()
+    play_tic_tac_toe()
